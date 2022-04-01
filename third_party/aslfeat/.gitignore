@@ -1,0 +1,6 @@
+*.index
+*.data-00000-of-00001
+*.pyc
+.vscode
+pretrained/*
+*DS_Store
