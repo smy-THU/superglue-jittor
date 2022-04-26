@@ -35,7 +35,8 @@ jittor
 
 ## Checkpoints
 
-you can get checkpoints for aslfeat model at https://research.altizure.com/data/aslfeat_models/aslfeat.tar and get corresponding superglue model at https://cloud.tsinghua.edu.cn/f/5e2701c1416640af8a02/?dl=1
+you can get checkpoints for aslfeat model at https://research.altizure.com/data/aslfeat_models/aslfeat.tar and put it in /third_party/aslfeat/pretrained/
+you can get corresponding superglue model at https://cloud.tsinghua.edu.cn/f/5e2701c1416640af8a02/?dl=1 and put it in /pack
 
 ## Dataset
 you can get test data at https://data.ciirc.cvut.cz/public/projects/2020VisualLocalization/InLoc/ or http://www.ok.sc.e.titech.ac.jp/INLOC/. Image-only is enough for this project.
