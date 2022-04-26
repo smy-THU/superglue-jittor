@@ -129,8 +129,8 @@ def main(conf, pairs, features, export_dir, dataset_path='', exhaustive=False):
 
         pred = model(data)
 
-        img0 = read_image(dataset_path / name0)
-        img1 = read_image(dataset_path / name1)
+        img0 = read_image(Path(dataset_path, name0))
+        img1 = read_image(Path(dataset_path, name1))
 
         matches = pred['matches0'][0].numpy()
         confidence = pred['matching_scores0'][0].numpy()
